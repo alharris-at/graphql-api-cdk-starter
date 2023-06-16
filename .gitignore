@@ -7,6 +7,7 @@ src/graphql
 src/API.ts
 src/appConfig.ts
 schema.json
+.graphqlconfig.yml
 
 # CDK asset staging directory
 .cdk.staging
