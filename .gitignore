@@ -1,0 +1,13 @@
+node_modules
+build
+lib
+
+# Generate artifacts
+src/graphql
+src/API.ts
+src/appConfig.ts
+schema.json
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out

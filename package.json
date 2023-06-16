@@ -1,0 +1,63 @@
+{
+  "name": "graphql-api-cdk-starter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start:app": "react-scripts start",
+    "start:backend": "cdk watch",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "cdk": "cdk",
+    "deploy": "cdk deploy",
+    "generate": "node scripts/generate.mjs",
+    "start": "concurrently npm:start:*"
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.35",
+    "@types/react": "^18.2.9",
+    "@types/react-dom": "^18.2.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4",
+    "aws-amplify": "5.2.5",
+    "@aws-amplify/ui-react": "^5.0.1"
+  },
+  "devDependencies": {
+    "aws-cdk-lib": "~2.68.0",
+    "constructs": "^10.0.5",
+    "source-map-support": "^0.5.21",
+    "agqlac": "0.1.0-agqlac.4",
+    "@types/node": "18.14.2",
+    "aws-cdk": "~2.68.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5",
+    "@aws-sdk/client-cloudformation": "3.350.0",
+    "@aws-sdk/client-appsync": "3.350.0",
+    "esbuild": "0.18.2",
+    "concurrently": "8.2.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
