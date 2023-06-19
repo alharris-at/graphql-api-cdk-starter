@@ -9,6 +9,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "cdk": "cdk",
+    "synth": "cdk synth",
     "deploy": "cdk deploy",
     "generate": "node scripts/generate.mjs",
     "start": "concurrently npm:start:*"
