@@ -20,7 +20,7 @@ new lambda.NodejsFunction(stack, 'EchoFunction', {
 const adminRole = iam.Role.fromRoleName(stack, 'adminRole', 'Admin'); // This is assuming you have an `Admin` role on your account
 
 /**
- * Create an Api with a singel todo model that anybody using apiKey can perform full ops on.
+ * Create an Api with a single todo model that anybody using apiKey can perform full ops on.
  * A related blog/post set of models which allow only iam admins to update, but apiKey users can read only.
  * And a custom query which invokes the lambda defined above.
  */
